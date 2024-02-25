@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tripadvisor</title>
+    <link
+      href="
+  https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css
+  "
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <section class="md: pl-5 m-5 flex items-center justify-around">
+      <div class="md:hidden">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke-width="1.5"
+          stroke="currentColor"
+          class="w-6 h-6"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+          />
+        </svg>
+      </div>
+      <div>
+        <img src="./images/Tripadvisor.svg" class="w-44 mr-40 md:m-0" />
+      </div>
+      <div class="font-medium flex gap-8 items-center hidden md:flex">
+        <p class="">Discover</p>
+        <p class="">Trips</p>
+        <p class="">Review</p>
+        <p class="">Flight</p>
+      </div>
+      <div class="flex gap-3 items-center hidden md:flex">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke-width="1.5"
+          stroke="currentColor"
+          class="w-6 h-6"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M12 21a9.004 9.004 0 0 0 8.716-6.747M12 21a9.004 9.004 0 0 1-8.716-6.747M12 21c2.485 0 4.5-4.03 4.5-9S14.485 3 12 3m0 18c-2.485 0-4.5-4.03-4.5-9S9.515 3 12 3m0 0a8.997 8.997 0 0 1 7.843 4.582M12 3a8.997 8.997 0 0 0-7.843 4.582m15.686 0A11.953 11.953 0 0 1 12 10.5c-2.998 0-5.74-1.1-7.843-2.918m15.686 0A8.959 8.959 0 0 1 21 12c0 .778-.099 1.533-.284 2.253m0 0A17.919 17.919 0 0 1 12 16.5c-3.162 0-6.133-.815-8.716-2.247m0 0A9.015 9.015 0 0 1 3 12c0-1.605.42-3.113 1.157-4.418"
+          />
+        </svg>
+        <p>|INR</p>
+        <button class="bg-black text-white p-3 rounded-full font-bold">
+          Sign in
+        </button>
+      </div>
+    </section>
+    <section class="text-center hidden mt-12 md:block">
+      <h1 class="font-bold text-5xl">Where to?</h1>
+    </section>
+    <section class="m-8 flex items-center justify-center gap-4">
+      <div
+        class="flex gap-2 font-medium items-center text-xl border-b-2 border-black"
+      >
+        <i class="fa-solid fa-house"></i>
+        <p class="">search</p>
+      </div>
+      <div
+        class="flex items-center gap-2 font-medium border-b-2 border-transparent hover:border-black"
+      >
+        <i class="fa-solid fa-bed"></i>
+        <p>Hotels</p>
+      </div>
+      <div
+        class="flex items-center gap-2 font-medium border-b-2 border-transparent hover:border-black"
+      >
+        <i class="fa-regular fa-clipboard"></i>
+        <p>Things</p>
+      </div>
+      <div
+        class="flex items-center gap-2 font-medium border-b-2 border-transparent hover:border-black"
+      >
+        <i class="fa-solid fa-burger"></i>
+        <p>Restaurants</p>
+      </div>
+    </section>
+
+    <section class="border border-gray-300 rounded-xl m-5 md:mx-48">
+      <div class="md:flex justify-between justify-center">
+        <div class="flex items-center p-2 border-b-2 w-full">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <input
+            placeholder="places to go,things to go,hotels"
+            class="m-2 w-full focus:outline-none"
+          /><br />
+        </div>
+        <div>
+          <button
+            class="m-2 bg-green-400 px-48 mx-2 p-2 rounded-full text-center md:px-14"
+          >
+            search
+          </button>
+        </div>
+      </div>
+    </section>
+    <section  class="text-center  p-2 md:flex items-center  md:m-10 rounded-xl" style="background-color:#DBC8FE;">
+      <div class=" m-3">
+      <div class="flex justify-center gap-2">
+        <p class="text-blue-900">Power by AI</p>
+        <p class="bg-white text-black  w-14 rounded">Beta</p>
+      </div>
+      <div class="m-3">
+        <p class="font-bold  text-purple-900 text-5xl p-2 ">Build a trip in minutes</p>
+        <p class="font-bold  text-purple-900 text-2xl  m-2 p-2">
+          Get a personalised itinerary just for you, guided by traveller tips
+          and reviews.
+        </p>
+        <button class="bg-purple-900 rounded-full text-white mt-4 p-4">Start a trip with AI</button>
+      </div>
+      </div>
+      <div>
+        <img src="./images/home-gai-entry-mv.png" alt="" class="">
+      </div>
+    </section>
+  
+   <section class="m-10 ">
+    <div>
+    <h1 class="font-bold text-2xl">2024's award-winning shores</h1>
+    <p  class="my-3 hover:text-5xl ">Travellers Choice Awards Best of the Best Beaches</p>
+    </div>
+    <div class="text-white grid grid-cols-2 gap-10 md:grid-cols-4">
+      <div class="">
+      <img src="./images/caption (1).jpg" alt="" class="">
+      <p class=" relative bottom-20 left-4 z-10 text-3xl font-bold">Asia Beach</p>
+    </div>
+    <div class="">
+      <img src="./images/caption (2).jpg" alt="" class="">
+      <p class="relative bottom-20 left-4 z-18 text-3xl font-bold">caribbean Beaches</p>
+    </div>
+    <div class="">
+      <img src="./images/caption (3).jpg" alt="" class="">
+      <p class="relative bottom-20 left-4 z-10 text-3xl font-bold ">Europe Beach</p>
+    </div>
+    <div class="">
+      <img src="./images/caption (4).jpg" alt="" class="">
+      <p class="relative bottom-20 left-4 z-10 text-3xl font-bold">pacific Beach</p>
+    </div>
+    </div>
+   </section>
+  
+  </body>
+</html>
